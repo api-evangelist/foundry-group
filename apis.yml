@@ -1,0 +1,75 @@
+aid: foundry-group
+name: Foundry Group
+description: >-
+  Foundry Group is a Boulder, Colorado venture capital firm founded in 2007 by Brad Feld, Seth Levine,
+  Ryan McIntyre, and Jason Mendelson. The firm invests in early-stage technology startups across the
+  United States, organizing its work around long-lived, horizontal investment themes (such as "glue",
+  "protocol", "distribution", and "human computer interaction") rather than narrow verticals, with a
+  particular affinity for hardware, robotics, consumer internet, developer tools, and B2B SaaS. Foundry
+  pioneered a "network-driven" model that operates both as a direct investor in startups and as a limited
+  partner in a curated network of more than 40 partner venture funds. The firm manages more than $3.0B for
+  its limited partners, has made 320+ investments and 70+ exits, and is known for radical transparency
+  through the books, blogs, and podcasts of its partners. Notable investments include Fitbit, Zynga,
+  SendGrid, MakerBot, Gnip, Mapbox, SeatGeek, and WHOOP. In 2022 the partners announced Foundry would not
+  raise another fund, continuing to steward its existing funds and portfolio through their life.
+image: https://foundry.vc/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Early Stage
+  - Hardware
+  - Robotics
+  - Developer Tools
+  - Consumer Internet
+  - B2B SaaS
+  - Network-Driven
+  - Boulder
+  - Colorado
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://foundry.vc/
+  - type: Portfolio
+    url: https://foundry.vc/portfolio/
+  - type: Portfolio
+    url: portfolio/foundry-group-portfolio.yml
+  - type: Team
+    url: https://foundry.vc/team/
+  - type: Team
+    url: team/foundry-group-team.yml
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/foundryvc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/foundry-vc
+  - type: Features
+    data:
+      - "Stage: Early stage (Seed, Series A) direct investments + limited partner in partner funds"
+      - "Model: Network-driven venture capital (direct investments + LP in 40+ partner funds)"
+      - "Sectors: hardware, robotics, consumer internet, developer tools, B2B SaaS"
+      - "Themes: horizontal themes (glue, protocol, distribution, human computer interaction)"
+      - "Geography: United States"
+      - "AUM: more than $3.0B for limited partners (self-reported)"
+      - "Activity: 320+ investments, 70+ exits, 75+ active portfolio companies, 40+ partner funds"
+      - "Founded: 2007"
+      - "HQ: Boulder, Colorado, USA"
+      - "Note: In 2022 the partners announced they would not raise another fund"
+    sources:
+      - https://foundry.vc/
+      - https://foundry.vc/portfolio/
+      - https://www.crunchbase.com/organization/foundryvc
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Foundry Group
+    url: https://foundry.vc/
