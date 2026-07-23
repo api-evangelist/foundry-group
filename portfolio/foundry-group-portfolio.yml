@@ -3,9 +3,9 @@ method: searched
 source: https://foundry.vc/portfolio/
 summary:
   portfolio_total: 110
-  in_network: 19
-  api_providers: 14
-  missing: 91
+  in_network: 110
+  api_providers: 25
+  missing: 0
   stubs_created: 0
 companies:
 - name: Adversa AI
@@ -14,9 +14,10 @@ companies:
   sector: ai-security
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adversa-ai
+  slug: adversa-ai
+  matched_by: domain
 - name: Airship
   url: https://www.airship.com
   description: Mobile app experience and customer engagement platform.
@@ -33,45 +34,50 @@ companies:
   sector: commerce
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: appdirect
+  in_network: true
+  is_api_provider: true
+  slug: appdirect
+  matched_by: domain
 - name: Authentic8
   url: https://www.authentic8.com
   description: Cloud browser isolation and secure web access.
   sector: security
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: authentic8
+  slug: authentic8
+  matched_by: domain
 - name: Boundless
   url: https://www.boundless.com
   description: Technology-driven immigration services.
   sector: immigration-tech
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: boundless
+  slug: boundless
+  matched_by: domain
 - name: Buncha
   url: https://www.gobuncha.com
   description: Neighborhood group grocery delivery.
   sector: e-commerce
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: buncha
+  slug: buncha
+  matched_by: domain
 - name: Butlr
   url: https://www.butlr.com
   description: Privacy-first people-sensing and spatial intelligence.
   sector: sensors
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: butlr
+  slug: butlr
+  matched_by: domain
 - name: Code Climate
   url: https://codeclimate.com
   description: Engineering intelligence and software quality analytics.
@@ -88,35 +94,39 @@ companies:
   sector: healthcare-ai
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ferrum-health
+  slug: ferrum-health
+  matched_by: domain
 - name: Fideo
   url: https://www.fideo.ai
   sector: ai
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fideo
+  slug: fideo
+  matched_by: domain
 - name: FlexPoint
   url: https://www.getflexpoint.com
   description: Embedded payments and financing for businesses.
   sector: fintech
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flexpoint
+  slug: flexpoint
+  matched_by: domain
 - name: FloatMe
   url: https://floatme.com
   description: Cash advances and financial wellness app.
   sector: fintech
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: floatme
+  slug: floatme
+  matched_by: domain
 - name: Formlabs
   url: https://formlabs.com
   description: Desktop and professional 3D printing hardware.
@@ -133,18 +143,20 @@ companies:
   sector: hardware
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glowforge
+  slug: glowforge
+  matched_by: domain
 - name: Havenly
   url: https://www.havenly.com
   description: Online interior design and home furnishings.
   sector: e-commerce
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: havenly
+  in_network: true
+  is_api_provider: true
+  slug: havenly
+  matched_by: domain
 - name: Help Scout
   url: https://www.helpscout.com
   description: Customer support and shared inbox platform.
@@ -161,18 +173,20 @@ companies:
   sector: saas
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hihello
+  slug: hihello
+  matched_by: domain
 - name: HitchPin
   url: https://www.hitchpin.com
   description: Agriculture and rural commerce marketplace.
   sector: marketplace
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: hitchpin
+  in_network: true
+  is_api_provider: true
+  slug: hitchpin
+  matched_by: domain
 - name: Inscribe
   url: https://inscribe.ai
   description: AI for fraud detection and document automation in fintech.
@@ -188,9 +202,10 @@ companies:
   sector: health
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jones
+  slug: jones
+  matched_by: name-slug
 - name: JumpCloud
   url: https://jumpcloud.com
   description: Cloud directory and unified device and identity management.
@@ -217,27 +232,30 @@ companies:
   sector: proptech
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: landing
+  in_network: true
+  is_api_provider: true
+  slug: landing
+  matched_by: domain
 - name: Looking Glass Factory
   url: https://lookingglassfactory.com
   description: Holographic and light-field displays.
   sector: hardware
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: looking-glass-factory
+  slug: looking-glass-factory
+  matched_by: domain
 - name: MacroFab
   url: https://macrofab.com
   description: Cloud manufacturing platform for electronics.
   sector: hardware
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: macrofab
+  slug: macrofab
+  matched_by: domain
 - name: Mapbox
   url: https://www.mapbox.com
   description: Developer platform for maps, navigation, and location data.
@@ -254,53 +272,59 @@ companies:
   sector: healthtech
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meru-health
+  slug: meru-health
+  matched_by: domain
 - name: Miriel
   url: https://miriel.ai
   sector: ai
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: miriel
+  in_network: true
+  is_api_provider: true
+  slug: miriel
+  matched_by: domain
 - name: Modular Robotics
   url: https://modrobotics.com
   description: Modular robotic construction kits.
   sector: hardware
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modular-robotics
+  slug: modular-robotics
+  matched_by: domain
 - name: Molekule
   url: https://molekule.com
   description: Air purification hardware and technology.
   sector: hardware
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: molekule
+  slug: molekule
+  matched_by: domain
 - name: NIFT
   url: https://www.gonift.com
   description: Gift-based customer acquisition and marketing network.
   sector: marketing
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nift
+  in_network: true
+  is_api_provider: true
+  slug: nift
+  matched_by: domain
 - name: Orion by Gravity
   url: https://www.bygravity.com
   description: Carbon and climate data management.
   sector: climate
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orion-by-gravity
+  slug: orion-by-gravity
+  matched_by: domain
 - name: Pantheon
   url: https://pantheon.io
   description: WebOps platform for hosting and managing websites.
@@ -317,62 +341,69 @@ companies:
   sector: ai
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parallel-domain
+  slug: parallel-domain
+  matched_by: domain
 - name: Pilot
   url: https://www.pilotfiber.com
   description: Business internet and fiber connectivity provider.
   sector: telecom
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pilot
+  slug: pilot
+  matched_by: name-slug
 - name: Quiq
   url: https://quiq.com
   description: Conversational AI and customer messaging platform.
   sector: customer-experience
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quiq
+  slug: quiq
+  matched_by: domain
 - name: Qwick
   url: https://www.qwick.com
   description: On-demand staffing marketplace for hospitality.
   sector: marketplace
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qwick
+  slug: qwick
+  matched_by: domain
 - name: RealWear
   url: https://www.realwear.com
   description: Rugged head-mounted AR wearables for industry.
   sector: hardware
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: realwear
+  slug: realwear
+  matched_by: domain
 - name: Regard
   url: https://regard.com
   description: AI clinical decision support for physicians.
   sector: healthcare-ai
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: regard
+  slug: regard
+  matched_by: domain
 - name: Rodeo
   url: https://rodeorodeorodeo.com
   sector: creative
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rodeo
+  slug: rodeo
+  matched_by: domain
 - name: SeatGeek
   url: https://seatgeek.com
   description: Ticketing marketplace for live events.
@@ -389,54 +420,60 @@ companies:
   sector: compliance
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: singlefile
+  in_network: true
+  is_api_provider: true
+  slug: singlefile
+  matched_by: name-slug
 - name: Snappr
   url: https://snappr.com
   description: On-demand photography and image marketplace.
   sector: marketplace
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: snappr
+  in_network: true
+  is_api_provider: true
+  slug: snappr
+  matched_by: domain
 - name: Sofar Ocean
   url: https://www.sofarocean.com
   description: Ocean sensor networks and marine weather data.
   sector: climate
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sofar-ocean
+  in_network: true
+  is_api_provider: true
+  slug: sofar-ocean
+  matched_by: domain
 - name: Sovrn
   url: https://www.sovrn.com
   description: Advertising and monetization technology for publishers.
   sector: adtech
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sovrn
+  slug: sovrn
+  matched_by: domain
 - name: Spekit
   url: https://spekit.com
   description: In-app digital enablement and sales training.
   sector: saas
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spekit
+  slug: spekit
+  matched_by: domain
 - name: Sphero
   url: https://sphero.com
   description: Programmable robots for education and play.
   sector: hardware
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sphero
+  slug: sphero
+  matched_by: domain
 - name: StackHawk
   url: https://www.stackhawk.com
   description: Developer-first dynamic API and application security testing.
@@ -453,62 +490,69 @@ companies:
   sector: fintech
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: stocktwits
+  in_network: true
+  is_api_provider: true
+  slug: stocktwits
+  matched_by: domain
 - name: SuperCircle
   url: https://www.supercircle.world
   description: Textile recycling and circular economy infrastructure.
   sector: climate
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: supercircle
+  slug: supercircle
+  matched_by: domain
 - name: Suzy
   url: https://suzy.com
   description: Consumer insights and market research platform.
   sector: saas
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: suzy
+  slug: suzy
+  matched_by: domain
 - name: Tracera
   url: https://tracera.com
   description: ESG and sustainability data management.
   sector: climate
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tracera
+  slug: tracera
+  matched_by: domain
 - name: Twindo
   url: https://www.twindo.com
   sector: unknown
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: twindo
+  slug: twindo
+  matched_by: domain
 - name: Vendasta
   url: https://www.vendasta.com
   description: End-to-end commerce platform for local business vendors.
   sector: saas
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vendasta
+  in_network: true
+  is_api_provider: true
+  slug: vendasta
+  matched_by: domain
 - name: Wholesail
   url: https://www.paywholesail.com
   description: B2B billing and payments for wholesale trade.
   sector: fintech
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wholesail
+  slug: wholesail
+  matched_by: domain
 - name: WHOOP
   url: https://www.whoop.com
   description: Wearable fitness and health performance tracking.
@@ -525,45 +569,50 @@ companies:
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 01-advisors
+  slug: 01-advisors
+  matched_by: domain
 - name: Arthur Ventures
   url: https://www.arthurventures.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arthur-ventures
+  slug: arthur-ventures
+  matched_by: domain
 - name: Avid Ventures
   url: https://www.avidventures.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avid-ventures
+  slug: avid-ventures
+  matched_by: domain
 - name: Basis Set Ventures
   url: https://www.basisset.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: basis-set-ventures
+  slug: basis-set-ventures
+  matched_by: domain
 - name: BlueYard
   url: https://blueyard.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blueyard
+  slug: blueyard
+  matched_by: domain
 - name: Bolt
   url: https://bolt.io
   description: Partner fund (hardware-focused venture capital).
@@ -580,306 +629,340 @@ companies:
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bonfire-ventures
+  slug: bonfire-ventures
+  matched_by: domain
 - name: Bowery Capital
   url: https://bowerycap.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bowery-capital
+  slug: bowery-capital
+  matched_by: domain
 - name: Cake
   url: https://www.cake.vc
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cake
+  slug: cake
+  matched_by: name-slug
 - name: Calibrate Ventures
   url: https://www.calibratevc.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: calibrate-ventures
+  slug: calibrate-ventures
+  matched_by: domain
 - name: Chingona Ventures
   url: https://www.chingona.ventures
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chingona-ventures
+  slug: chingona-ventures
+  matched_by: domain
 - name: Costanoa Ventures
   url: https://www.costanoa.vc
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: costanoa-ventures
+  slug: costanoa-ventures
+  matched_by: domain
 - name: Forerunner Ventures
   url: https://www.forerunnerventures.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forerunner-ventures
+  slug: forerunner-ventures
+  matched_by: domain
 - name: Founder Collective
   url: https://www.foundercollective.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: founder-collective
+  slug: founder-collective
+  matched_by: domain
 - name: Freestyle
   url: https://freestyle.vc
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: freestyle
+  slug: freestyle
+  matched_by: domain
 - name: Golden Ventures
   url: https://www.golden.ventures
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: golden-ventures
+  slug: golden-ventures
+  matched_by: domain
 - name: High Alpha Capital
   url: https://highalpha.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: high-alpha-capital
+  slug: high-alpha-capital
+  matched_by: domain
 - name: Homebrew
   url: https://homebrew.co
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: homebrew
+  slug: homebrew
+  matched_by: domain
 - name: Hustle Fund
   url: https://www.hustlefund.vc
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hustle-fund
+  slug: hustle-fund
+  matched_by: domain
 - name: IA Ventures
   url: https://www.iaventures.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ia-ventures
+  slug: ia-ventures
+  matched_by: domain
 - name: K9 Ventures
   url: https://www.k9ventures.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: k9-ventures
+  slug: k9-ventures
+  matched_by: domain
 - name: Kindred Ventures
   url: https://kindredventures.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kindred-ventures
+  slug: kindred-ventures
+  matched_by: domain
 - name: Leadout Capital
   url: https://www.leadoutcapital.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: leadout-capital
+  slug: leadout-capital
+  matched_by: domain
 - name: Lemnos Labs
   url: https://lemnos.vc
   description: Partner fund (hardware-focused venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lemnos-labs
+  slug: lemnos-labs
+  matched_by: domain
 - name: Lowercarbon Capital
   url: https://lowercarboncapital.com
   description: Partner fund (climate venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lowercarbon-capital
+  slug: lowercarbon-capital
+  matched_by: name-slug
 - name: Ludlow Ventures
   url: https://www.ludlowventures.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ludlow-ventures
+  slug: ludlow-ventures
+  matched_by: domain
 - name: Maple
   url: https://www.maplevc.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maple
+  slug: maple
+  matched_by: domain
 - name: Matchstick Ventures
   url: https://www.matchstickventures.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: matchstick-ventures
+  slug: matchstick-ventures
+  matched_by: domain
 - name: Moxxie Ventures
   url: https://www.moxxie.vc
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moxxie-ventures
+  slug: moxxie-ventures
+  matched_by: domain
 - name: Pioneer Square Labs
   url: https://www.psl.com
   description: Partner fund (venture studio and venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pioneer-square-labs
+  slug: pioneer-square-labs
+  matched_by: domain
 - name: Placeholder
   url: https://www.placeholder.vc
   description: Partner fund (crypto venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: placeholder
+  slug: placeholder
+  matched_by: domain
 - name: Resolute Ventures
   url: https://resolute.vc
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resolute-ventures
+  slug: resolute-ventures
+  matched_by: domain
 - name: SK Ventures
   url: https://skvcap.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sk-ventures
+  slug: sk-ventures
+  matched_by: domain
 - name: Slauson & Co.
   url: https://www.slauson.co
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: slauson-and-co
+  slug: slauson-and-co
+  matched_by: domain
 - name: Spider Capital
   url: https://www.spidercapital.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spider-capital
+  slug: spider-capital
+  matched_by: domain
 - name: Springbank Collective
   url: https://www.springbankcollective.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: springbank-collective
+  slug: springbank-collective
+  matched_by: name-slug
 - name: Starting Line VC
   url: https://www.startingline.vc
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: starting-line-vc
+  slug: starting-line-vc
+  matched_by: domain
 - name: Stellation
   url: https://www.stellation.vc
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stellation
+  slug: stellation
+  matched_by: domain
 - name: Techstars Ventures
   url: https://www.techstars.com
   description: Partner fund (venture capital / accelerator).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: techstars-ventures
+  slug: techstars
+  matched_by: domain
 - name: TenOneTen
   url: https://www.tenoneten.net
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tenoneten
+  slug: tenoneten
+  matched_by: name-slug
 - name: True Ventures
   url: https://trueventures.com
   description: Partner fund (venture capital).
@@ -889,53 +972,57 @@ companies:
   slug: true-ventures
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Twine Ventures
   url: https://www.twineventures.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: twine-ventures
+  slug: twine-ventures
+  matched_by: domain
 - name: Uncork Capital
   url: https://uncorkcapital.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: uncork-capital
+  slug: uncork-capital
+  matched_by: domain
 - name: Union Square Ventures
   url: https://www.usv.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  slug: union-square-ventures
+  slug: brewster
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Wave Capital
   url: https://wave.capital
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wave-capital
+  slug: wave-capital
+  matched_by: domain
 - name: Westbound Equity Partners
   url: https://westboundequity.com
   description: Partner fund (venture capital).
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: westbound-equity-partners
+  slug: westbound-equity-partners
+  matched_by: domain
 - name: Fitbit
   url: https://www.fitbit.com
   description: Wearable fitness trackers; IPO then acquired by Google.
@@ -972,7 +1059,7 @@ companies:
   sector: developer-tools
   status: acquired
   source: https://foundry.vc/portfolio/
-  slug: dropbox-sign
+  slug: hellosign
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -982,33 +1069,37 @@ companies:
   sector: developer-tools
   status: acquired
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gnip
+  slug: gnip
+  matched_by: domain
 - name: MakerBot
   url: https://www.makerbot.com
   description: Desktop 3D printers; acquired by Stratasys.
   sector: hardware
   status: acquired
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: makerbot
+  slug: makerbot
+  matched_by: domain
 - name: AdMeld
   url: https://www.admeld.com
   description: Publisher ad optimization; acquired by Google.
   sector: adtech
   status: acquired
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: admeld
+  slug: admeld
+  matched_by: domain
 - name: Harmonix
   url: https://www.harmonixmusic.com
   description: Music video game studio (Rock Band, Dance Central); acquired.
   sector: gaming
   status: acquired
   source: https://foundry.vc/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: harmonix
+  slug: harmonix
+  matched_by: domain
