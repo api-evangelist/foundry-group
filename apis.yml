@@ -12,6 +12,17 @@ description: >-
   through the books, blogs, and podcasts of its partners. Notable investments include Fitbit, Zynga,
   SendGrid, MakerBot, Gnip, Mapbox, SeatGeek, and WHOOP. In 2022 the partners announced Foundry would not
   raise another fund, continuing to steward its existing funds and portfolio through their life.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
