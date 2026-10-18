@@ -3,9 +3,9 @@ method: searched
 source: https://foundry.vc/portfolio/
 summary:
   portfolio_total: 110
-  in_network: 110
-  api_providers: 25
-  missing: 0
+  in_network: 103
+  api_providers: 26
+  missing: 7
   stubs_created: 0
 companies:
 - name: Adversa AI
@@ -195,17 +195,17 @@ companies:
   source: https://foundry.vc/portfolio/
   slug: inscribe
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Jones
   url: https://quitwithjones.com
   sector: health
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: jones
-  matched_by: name-slug
+  x-name-collision: jones
+  suggested_slug: quitwithjones-com
 - name: JumpCloud
   url: https://jumpcloud.com
   description: Cloud directory and unified device and identity management.
@@ -222,10 +222,9 @@ companies:
   sector: proptech
   status: active
   source: https://foundry.vc/portfolio/
-  slug: knock
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: knock
 - name: Landing
   url: https://www.hellolanding.com
   description: Flexible furnished apartment rental network.
@@ -351,10 +350,10 @@ companies:
   sector: telecom
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: pilot
-  matched_by: name-slug
+  x-name-collision: pilot
+  suggested_slug: pilotfiber-com
 - name: Quiq
   url: https://quiq.com
   description: Conversational AI and customer messaging platform.
@@ -451,7 +450,7 @@ companies:
   status: active
   source: https://foundry.vc/portfolio/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: sovrn
   matched_by: domain
 - name: Spekit
@@ -461,7 +460,7 @@ companies:
   status: active
   source: https://foundry.vc/portfolio/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: spekit
   matched_by: domain
 - name: Sphero
@@ -619,10 +618,9 @@ companies:
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  slug: bolt
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: bolt
 - name: Bonfire Ventures
   url: https://www.bonfirevc.com
   description: Partner fund (venture capital).
@@ -649,10 +647,10 @@ companies:
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cake
-  matched_by: name-slug
+  x-name-collision: cake
+  suggested_slug: cake-vc
 - name: Calibrate Ventures
   url: https://www.calibratevc.com
   description: Partner fund (venture capital).
@@ -731,7 +729,7 @@ companies:
   source: https://foundry.vc/portfolio/
   in_network: true
   is_api_provider: false
-  slug: high-alpha-capital
+  slug: high-alpha
   matched_by: domain
 - name: Homebrew
   url: https://homebrew.co
@@ -809,10 +807,10 @@ companies:
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: lowercarbon-capital
-  matched_by: name-slug
+  x-name-collision: lowercarbon-capital
+  suggested_slug: lowercarboncapital-com
 - name: Ludlow Ventures
   url: https://www.ludlowventures.com
   description: Partner fund (venture capital).
@@ -919,10 +917,10 @@ companies:
   sector: venture-capital
   status: active
   source: https://foundry.vc/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: springbank-collective
-  matched_by: name-slug
+  x-name-collision: springbank-collective
+  suggested_slug: springbankcollective-com
 - name: Starting Line VC
   url: https://www.startingline.vc
   description: Partner fund (venture capital).
@@ -1039,7 +1037,7 @@ companies:
   sector: gaming
   status: acquired
   source: https://foundry.vc/portfolio/
-  slug: take-two-interactive-software
+  slug: zynga
   in_network: true
   is_api_provider: false
   matched_by: domain

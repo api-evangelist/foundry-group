@@ -1,4 +1,53 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: foundry-group
-leads: []
+leads:
+- name: Jones
+  url: https://quitwithjones.com
+  suggested_slug: quitwithjones-com
+  sector: health
+  source_vc: foundry-group
+  source: https://foundry.vc/portfolio/
+  stub_created: false
+- name: Knock
+  url: https://www.knock.com
+  suggested_slug: knock
+  sector: proptech
+  source_vc: foundry-group
+  source: https://foundry.vc/portfolio/
+  stub_created: false
+- name: Pilot
+  url: https://www.pilotfiber.com
+  suggested_slug: pilotfiber-com
+  sector: telecom
+  source_vc: foundry-group
+  source: https://foundry.vc/portfolio/
+  stub_created: false
+- name: Bolt
+  url: https://bolt.io
+  suggested_slug: bolt
+  sector: venture-capital
+  source_vc: foundry-group
+  source: https://foundry.vc/portfolio/
+  stub_created: false
+- name: Cake
+  url: https://www.cake.vc
+  suggested_slug: cake-vc
+  sector: venture-capital
+  source_vc: foundry-group
+  source: https://foundry.vc/portfolio/
+  stub_created: false
+- name: Lowercarbon Capital
+  url: https://lowercarboncapital.com
+  suggested_slug: lowercarboncapital-com
+  sector: venture-capital
+  source_vc: foundry-group
+  source: https://foundry.vc/portfolio/
+  stub_created: false
+- name: Springbank Collective
+  url: https://www.springbankcollective.com
+  suggested_slug: springbankcollective-com
+  sector: venture-capital
+  source_vc: foundry-group
+  source: https://foundry.vc/portfolio/
+  stub_created: false
